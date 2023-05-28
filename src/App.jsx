@@ -139,7 +139,7 @@ const App = () => {
           console.error(error);
         });
     }
-  }, [fromCurrency, toCurrency, amount]);
+  }, [fromCurrency, toCurrency, amount]); // dependecies which are received
 
   return (
     <div
